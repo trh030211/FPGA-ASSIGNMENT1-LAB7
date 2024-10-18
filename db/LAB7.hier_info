@@ -1,0 +1,12 @@
+|LAB7
+A => LessThan0.IN1
+A => EQ.IN0
+A => LessThan1.IN1
+B => LessThan0.IN2
+B => EQ.IN1
+B => LessThan1.IN2
+LT << LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+EQ << EQ.DB_MAX_OUTPUT_PORT_TYPE
+GT << LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+
+
